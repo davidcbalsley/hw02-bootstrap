@@ -29,3 +29,16 @@ img {
 li {
     display: inline;
 }
+ 
+.bio-image {
+    float: left;
+}
+
+.main-content {
+    background-color: #ffffff;
+    /* border-color: #dddddd; */
+    border-color: black;
+    border-width: 20px;
+    margin: auto;
+    width: 956px;
+}
