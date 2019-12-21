@@ -8,10 +8,7 @@ a {
 }
 
 body {
-    /* display: grid; */
-    /* grid-template-rows: 1fr auto; */
     line-height: 200%;
-    /* min-height: 100%; */
 }
 
 /* Submit button on the Contact page */
@@ -23,12 +20,7 @@ button {
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    /* grid-row-start: 2; */
-    /* grid-row-end: 3; */
-    /* bottom: 0;
-    position: fixed; */
     text-align: center;
-    /* width: 100%; */
 }
 
 h1, h2, h3 {
@@ -56,11 +48,7 @@ header {
     box-sizing: border-box;
     margin: auto;
 }
-/*
-html {
-    height: 100%;
-}
-*/
+
 img {
     height: 308px;
     width: 232px;
@@ -92,6 +80,7 @@ li {
     border-color: #dddddd;
     border-style: solid;
     border-width: 2px;
+    /* https://learnlayout.com/box-sizing.html */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -106,6 +95,7 @@ li {
 }
 
 .name-and-navigation {
+    /* https://learnlayout.com/box-sizing.html */
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -117,10 +107,6 @@ li {
 .navigation {
     float: right; 
     padding-top: 26px;
-}
-
-.portfolio-container {
-    position: relative;
 }
 
 .portfolio-image {
@@ -135,7 +121,7 @@ li {
     width: 232px;
 }
 
-.portfolio-top-middle {
-    position: absolute;
-    right: 0;
+.portfolio-top-right {
+    left: 400px;
+    top: -312px;
 }
