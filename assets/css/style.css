@@ -11,6 +11,13 @@ body {
     line-height: 200%;
 }
 
+footer {
+    background-color: #666666;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -42,6 +49,7 @@ li {
     display: inline;
 }
  
+/* Photo on the About page */
 .bio-image {
     float: left;
     padding-right: 10px;
