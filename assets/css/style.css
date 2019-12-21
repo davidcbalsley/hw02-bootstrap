@@ -93,6 +93,7 @@ li {
     box-sizing: border-box;
     clear: both;
     margin: auto;
+    padding: 20px;
     width: 960px;
 }
 
