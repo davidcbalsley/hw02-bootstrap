@@ -56,6 +56,17 @@ img {
     width: 232px;
 }
 
+input {
+    /* Make the input fields stretch across the screen */
+    height: 24px;
+    width: 100%;
+}
+
+input.message {
+    /* Make the message text box especially tall */
+    height: 144px;
+}
+
 li {
     display: inline;
 }

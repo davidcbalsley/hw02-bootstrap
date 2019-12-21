@@ -11,9 +11,12 @@
 <body>
     <!-- Header -->
     <header>
-        <h1>David C. Balsley</h1>
+        <div class="name-and-navigation">
+        <section class="name">
+            <h1>David C. Balsley</h1>
+        </section>
 
-        <!-- Navigation -->
+         <!-- Navigation -->
         <section class="navigation">
             <ul>
                 <li><a href="#">About</a></li>
@@ -21,6 +24,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </section>
+        </div>
     </header>
 
     <div class="main-content">
@@ -33,13 +37,13 @@
         <!-- Contact form -->
         <form>
             Name<br />
-            <input type="text" name="name" value="John Smith">
+            <input type="text" name="name" placeholder="John Smith">
             <br />
             Email<br />
-            <input type="text" name="email" value="example@gmail.com">
+            <input type="text" name="email" placeholder="example@gmail.com">
             <br />
             Message<br />
-            <input type="text" name="message">
+            <input class="message" type="text" name="message">
             <br />
             <button type="submit">Submit</button>
         </form>
