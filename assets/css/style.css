@@ -32,7 +32,6 @@ h1, h2, h3 {
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
-    float: left;
     font-size: 24px;
     padding: 20px;
 }
@@ -43,9 +42,9 @@ h2, h3 {
 
 header {
     background-color: #ffffff;
+    border-bottom: 10px solid pink;
     box-sizing: border-box;
     margin: auto;
-    width: 960px;
 }
 /*
 html {
@@ -80,6 +79,17 @@ li {
     width: 960px;
 }
 
+.name {
+    float: left;
+}
+
+.name-and-navigation {
+    box-sizing: border-box;
+    margin: auto;
+    width: 960px;
+}
+
+/* Links in the upper-right corner */
 .navigation {
     float: right; 
     padding-top: 26px;
