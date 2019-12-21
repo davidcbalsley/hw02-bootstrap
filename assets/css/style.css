@@ -14,6 +14,12 @@ body {
     /* min-height: 100%; */
 }
 
+/* Submit button on the Contact page */
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
