@@ -3,13 +3,24 @@
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 200%;
+}
+
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-    color: #ffffff;
     background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    font-size: 24px;
+    padding: 20px;
 }
 
 h2, h3 {
@@ -18,7 +29,8 @@ h2, h3 {
 
 header {
     background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
+    margin: auto;
+    width: 956px;
 }
 
 img {
@@ -32,6 +44,7 @@ li {
  
 .bio-image {
     float: left;
+    padding-right: 10px;
 }
 
 .main-content {
