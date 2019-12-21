@@ -42,8 +42,12 @@ h1 {
     padding: 20px;
 }
 
-h2, h3 {
+h2  {
     color: #4aaaa5;
+}
+
+h3 {
+    color: #ffffff;
 }
 
 header {
@@ -103,6 +107,8 @@ li {
 
 .name-and-navigation {
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     margin: auto;
     width: 960px;
 }
@@ -111,4 +117,25 @@ li {
 .navigation {
     float: right; 
     padding-top: 26px;
+}
+
+.portfolio-container {
+    position: relative;
+}
+
+.portfolio-image {
+    position: relative;
+}
+
+.portfolio-label {
+    bottom: 50px;
+    background-color: #4aaaa5;
+    position: absolute;
+    text-align: center;
+    width: 232px;
+}
+
+.portfolio-top-middle {
+    position: absolute;
+    right: 0;
 }
