@@ -1,3 +1,8 @@
+.bio-image {
+    padding-right: 20px;
+    width: 25%;
+}
+
 .main-content {
     background-color: #ffffff;
     border-color: #dddddd;
@@ -11,8 +16,4 @@
     margin: auto;
     padding: 20px;
     width: 960px;
-}
-
-.img-fluid {
-    width: 25%;
 }
