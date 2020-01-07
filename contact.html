@@ -7,9 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    
-    <!-- <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
     <!-- <script src='main.js'></script> -->
 </head>
 <body>
@@ -31,7 +30,7 @@
         </div>
     </header>
 
-    <div class="main-content">
+    <div class="container main-content">
 
         <h2>Contact</h2>
 
@@ -40,16 +39,26 @@
 
         <!-- Contact form -->
         <form>
-            Name<br />
-            <input type="text" name="name" placeholder="John Smith">
-            <br />
-            Email<br />
-            <input type="text" name="email" placeholder="example@gmail.com">
-            <br />
-            Message<br />
-            <input class="message" type="text" name="message">
-            <br />
-            <button type="submit">Submit</button>
+            <!-- Name label and text box -->
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" placeholder="John Smith">
+            </div>
+
+            <!-- Email label and text box -->
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
+            </div>
+
+            <!-- Message label and large text box -->
+            <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea class="form-control" id="inputMessage" rows="8"></textarea>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 
     </div>
