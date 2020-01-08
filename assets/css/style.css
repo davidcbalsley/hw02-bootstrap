@@ -17,3 +17,13 @@
     padding: 20px;
     width: 960px;
 }
+
+.portfolio-cell {
+    position: relative;
+}
+
+.portfolio-cell h3 {
+    bottom: 50px;
+    position: absolute;
+    text-align: center;
+}
