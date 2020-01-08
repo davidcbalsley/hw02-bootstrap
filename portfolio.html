@@ -14,23 +14,43 @@
     <!-- <script src='main.js'></script> -->
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="name-and-navigation">
-        <section class="name">
-            <h1>David C. Balsley</h1>
-        </section>
-
-         <!-- Navigation -->
-        <section class="navigation">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </section>
-        </div>
-    </header>
+    <!-- Navbar -->
+    <!-- <nav class="navbar"> -->
+    <!-- <nav class="navbar navbar-expand-sm"> -->
+        <nav class="navbar navbar-expand-lg navbar-fixed-top">
+            <div class="container">
+                <h1 class="navbar-brand">David C. Balsley</h1>
+                <!-- <div class="navbar-header"> -->
+                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- <h1 class="navbar-brand">David C. Balsley</h1> -->
+                <!-- </div> -->
+                <div id="navbar" class="navbar-collapse collapse">
+                    <!-- Navigation -->
+                    <ul class="nav navbar-nav">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+    
+                        <!-- About -->
+                        <li><a class="nav-btn" href="#">About</a></li>
+    
+                        <!-- Portfolio -->
+                        <li class="nav-btn"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+    
+                        <!-- Contact -->
+                        <li class="nav-btn"><a class="nav-link" href="contact.html">Contact</a></li>
+            
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
     <div class="container main-content">
 
@@ -110,62 +130,11 @@
         </div>
     </div>
 
-        <!-- Top left -->
-        <!-- <div class="portfolio-image"> -->
-        <!-- <div>
-            <img class="img-fluid" src="assets/images/no-moonbouncers.jpeg" alt="Project #1">
-
-            <div class="portfolio-label">
-                <h3>Hangman</h3>
-            </div>
-
-        </div>
-
-        <!-- Top right -->
-        <!-- <div class = "portfolio-image portfolio-top-right"> -->
-        <!-- <div>
-            <img class="img-fluid" src="assets/images/snail.jpeg" alt="Project #2">
-            
-            <div class="portfolio-label">
-                <h3>RPG Game</h3>
-            </div>
-        </div> -->
-
-        <!-- Middle left -->
-        <!-- <div class="portfolio-image"> -->
-        <!-- <div>
-            <img class="img-fluid" src="assets/images/door.jpeg" alt="Project #3">
-
-            <div class="portfolio-label">
-                <h3>Trivia Game</h3>
-            </div>
-        </div> -->
-
-        <!-- Middle right -->
-        <!-- <div class="portfolio-image"> -->
-        <!-- <div>
-            <img class="img-fluid" src="assets/images/banana-split.jpeg" alt="Project #4">
-            
-            <div class="portfolio-label">
-                <h3>Rutgers Info Widget</h3>
-            </div>
-        </div> -->
-
-        <!-- Bottom left -->
-        <!-- <div class="portfolio-image"> -->
-        <!-- <div>
-            <img class="img-fluid" src="assets/images/oven.jpeg" alt="Project #5">
-        
-            <div class="portfolio-label">
-                <h3>Rock Paper Scissors</h3>
-            </div>
-    </div> -->
-
     <!-- Footer -->
-    <footer>
-        <p>
-            Copyright ©
-        </p>
+    <footer class="page-footer footer-style">
+        <div class="container">
+            <span>Copyright ©</span>
+        </div>
     </footer>
 
 </body>

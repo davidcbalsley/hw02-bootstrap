@@ -3,6 +3,12 @@
     width: 25%;
 }
 
+.footer-style {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
+
 .main-content {
     background-color: #ffffff;
     border-color: #dddddd;
